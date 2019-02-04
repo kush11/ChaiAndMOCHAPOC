@@ -1,0 +1,31 @@
+{
+  "name": "nodetest",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "cross-env NODE_ENV=development mocha",
+    "audit": "npm-audit",
+    "postinstall": "npm-audit",
+    "pretest": "npm-audit"
+  },
+  "author": "kush kumar",
+  "license": "ISC",
+  "dependencies": {
+    "assert": "^1.4.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mongoose": "^5.4.8"
+  },
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chai-as-promised": "^7.1.1",
+    "cross-env": "^5.2.0",
+    "mailer": "^0.6.7",
+    "npm-audit": "0.0.3",
+    "rewire": "^4.0.1",
+    "sinon": "^7.2.3",
+    "sinon-chai": "^3.3.0",
+    "supertest": "^3.4.2"
+  }
+}
